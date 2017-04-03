@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\month.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\month.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\io.krumbs.sdk\\krumbs-sdk\\2.4.0-SNAPSHOT\\res\\mipmap-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\next.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\next.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\male_edit.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\male_edit.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\week.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\week.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\logout.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\logout.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\day.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\day.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\male_login.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\male_login.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\preferences.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\preferences.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\navigation_drawer.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\navigation_drawer.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\navigation.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\navigation.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\hamburger_100.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\hamburger_100.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\logo.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\mipmap-hdpi\\logo.png"
+    }
+]

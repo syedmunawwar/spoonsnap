@@ -1,0 +1,48 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="10dp"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            android:background="@color/login"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        <ImageButton
+            android:id="@+id/start_report_button"
+            android:layout_width="@dimen/report_button_dim"
+            android:layout_height="@dimen/report_button_dim"
+            android:src="@drawable/start_report_button"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/report_button_layout_margin"
+            android:scaleType="fitCenter"
+            android:background="@drawable/start_button_background" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/camera_container"></FrameLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
