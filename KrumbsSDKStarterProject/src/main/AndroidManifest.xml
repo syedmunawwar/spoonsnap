@@ -41,6 +41,8 @@
         <activity android:name=".Activitys.RegisterActivity"/>
         <activity android:name=".Activitys.PreferencesActivity"/>
         <activity android:name=".Activitys.DishName"/>
+        <activity android:name=".Activitys.Staticimage"/>
+        <activity android:name=".Activitys.Dishfeatures"/>
     </application>
 
 </manifest>

@@ -76,6 +76,8 @@
         <activity android:name="io.krumbs.sdk.starter.Activitys.RegisterActivity" />
         <activity android:name="io.krumbs.sdk.starter.Activitys.PreferencesActivity" />
         <activity android:name="io.krumbs.sdk.starter.Activitys.DishName" />
+        <activity android:name="io.krumbs.sdk.starter.Activitys.Staticimage" />
+        <activity android:name="io.krumbs.sdk.starter.Activitys.Dishfeatures" />
 
         <meta-data
             android:name="com.mixpanel.android.MPConfig.FlushInterval"

@@ -23,6 +23,7 @@ import io.krumbs.sdk.data.model.Media;
 import io.krumbs.sdk.krumbscapture.KMediaUploadListener;
 import io.krumbs.sdk.starter.Activitys.DishName;
 import io.krumbs.sdk.starter.Activitys.MainActivity;
+import io.krumbs.sdk.starter.Activitys.Staticimage;
 import io.krumbs.sdk.starter.Models.User;
 import io.krumbs.sdk.starter.Preferences.LoginPreferences;
 
@@ -59,11 +60,15 @@ public class StarterApplication extends Application {
                                           Media.MediaType mediaType, URL mediaUrl) {
 
                     if (mediaUploadStatus != null) {
-                        Intent intent = new Intent(StarterApplication.this, DishName.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(intent);
+                        Intent intent1 = new Intent(StarterApplication.this, Staticimage.class);
+                        intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intent1);
                         Log.i("KRUMBS Status", mediaUploadStatus.toString());
                         if (mediaUploadStatus == KMediaUploadListener.MediaUploadStatus.UPLOAD_SUCCESS) {
+                            Intent intent = new Intent(StarterApplication.this, DishName.class);
+                            intent.putExtra("imageUrl", mediaUrl.toString());
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);
                             if (mediaType != null && mediaUrl != null) {
                                 Log.i("KRUMBS Media, Type: ", mediaType + ": ID:" + id + ", URL:" + mediaUrl);
                                 Toast.makeText(StarterApplication.this, mediaUploadStatus.toString(), Toast.LENGTH_LONG).show();

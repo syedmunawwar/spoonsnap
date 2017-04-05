@@ -8,4 +8,5 @@ public class Urls {
     public static final String BASE_URL = "http://foodlogging.pe.hu/";
     public static final String LOGIN_URL = "login.php";
     public static final String REGISTER_URL = "register.php";
+    public static final String UPLOAD_IMAGE_URL = "uploadimageurl.php";
 }

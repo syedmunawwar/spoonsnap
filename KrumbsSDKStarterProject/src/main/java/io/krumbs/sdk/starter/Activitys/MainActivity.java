@@ -26,6 +26,7 @@ import android.widget.Toast;
 
 import java.util.Map;
 
+import de.greenrobot.event.EventBus;
 import io.krumbs.sdk.KrumbsSDK;
 import io.krumbs.sdk.dashboard.KDashboardFragment;
 import io.krumbs.sdk.dashboard.KGadgetDataTimePeriod;
@@ -35,6 +36,7 @@ import io.krumbs.sdk.krumbscapture.settings.KUserPreferences;
 import io.krumbs.sdk.starter.Adapters.TimeLineTabAdapter;
 import io.krumbs.sdk.starter.Models.User;
 import io.krumbs.sdk.starter.Preferences.LoginPreferences;
+import io.krumbs.sdk.starter.Preferences.UrlPreferences;
 import io.krumbs.sdk.starter.R;
 import io.krumbs.sdk.starter.fragments.OneFragment;
 import io.krumbs.sdk.starter.fragments.ThreeFragment;
@@ -50,6 +52,7 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
     ImageButton startCaptureButton;
     ImageView hamburgerIV;
     private LoginPreferences loginPreferences;
+    private UrlPreferences localimageurl;
     User user;
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -58,6 +61,7 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
             R.mipmap.week,
             R.mipmap.month
     };
+
 
 
     @Override
@@ -71,8 +75,8 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
         loginPreferences = new LoginPreferences(MainActivity.this);
+        localimageurl = new UrlPreferences(MainActivity.this);
         user = loginPreferences.getUser();
-
         /**if (savedInstanceState == null) {
          kDashboard = buildDashboard();
          getSupportFragmentManager().beginTransaction().replace(R.id.content, kDashboard).commit();
@@ -197,6 +201,12 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
 
 // The local image url for your capture
                     String imagePath = (String) map.get(KCaptureCompleteListener.CAPTURE_MEDIA_IMAGE_PATH);
+//                    Intent intent = new Intent(MainActivity.this, DishName.class);
+//                    intent.putExtra("imagelocal", imagePath.toString());
+                    localimageurl.SetURL(imagePath.toString());
+                    tabLayout.setVisibility(View.VISIBLE);
+                    viewPager.setVisibility(View.VISIBLE);
+
                     if (audioCaptured) {
 // The local audio url for your capture (if user decided to record audio)
                         String audioPath = (String) map.get(KCaptureCompleteListener.CAPTURE_MEDIA_AUDIO_PATH);
@@ -204,8 +214,10 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
                     }
 // The mediaJSON url for your capture
                     String mediaJSONUrl = (String) map.get(KCaptureCompleteListener.CAPTURE_MEDIA_JSON_URL);
+
                     Log.i("KRUMBS-CALLBACK", mediaJSONUrl + ", " + imagePath);
-                    Toast.makeText(MainActivity.this, "23", Toast.LENGTH_LONG).show();
+
+
                     if (map.containsKey(KCaptureCompleteListener.CAPTURE_EVENT)) {
                         Event ev = (Event) map.get(KCaptureCompleteListener.CAPTURE_EVENT);
                         Log.i("KRUMBS-CALLBACK", "Event captured = " + ev.objectId());
@@ -255,6 +267,7 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
         adapter.addFrag(new ThreeFragment(), "Month");
         viewPager.setAdapter(adapter);
     }
+
 
 
 }

@@ -264,6 +264,10 @@
         "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\dishfeature.xml",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\layout\\dishfeature.xml"
+    },
+    {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_menu_item_action_area.xml"
     },
@@ -390,6 +394,10 @@
     {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_two.xml",
         "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\layout\\fragment_two.xml"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\static_image.xml",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\layout\\static_image.xml"
     },
     {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\kcamera_preview_layout.xml",

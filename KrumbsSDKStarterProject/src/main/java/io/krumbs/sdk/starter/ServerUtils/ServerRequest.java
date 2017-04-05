@@ -49,4 +49,20 @@ public class ServerRequest {
         }
         return jsonObject;
     }
+
+    public JSONObject uploadImageURL(Context context,String url){
+        JSONObject jsonObject = null;
+        try {
+            JSONObject request = new JSONObject();
+            request.put("url", url);
+            Log.e("JSON-REQUEST", request.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.UPLOAD_IMAGE_URL,request.toString());
+            jsonObject = new JSONObject(response);
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return jsonObject;
+    }
 }

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:7:1-46:12
+ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:7:1-48:12
 	xmlns:android
 		ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:7:11-69
 	package
@@ -56,7 +56,7 @@ MERGED from [io.krumbs.sdk:krumbs-sdk:2.4.0-SNAPSHOT] F:\final year project\spoo
 	android:name
 		ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:15:22-78
 application
-ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:17:5-44:19
+ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:17:5-46:19
 MERGED from [io.krumbs.sdk:krumbs-sdk:2.4.0-SNAPSHOT] F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\exploded-aar\io.krumbs.sdk\krumbs-sdk\2.4.0-SNAPSHOT\AndroidManifest.xml:31:5-54:19
 MERGED from [com.mixpanel.android:mixpanel-android:4.7.0] F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\exploded-aar\com.mixpanel.android\mixpanel-android\4.7.0\AndroidManifest.xml:44:5-124:19
 MERGED from [com.google.android.gms:play-services-location:10.0.1] F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\AndroidManifest.xml:4:5-19
@@ -1232,6 +1232,14 @@ activity#io.krumbs.sdk.starter.Activitys.DishName
 ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:43:9-55
 	android:name
 		ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:43:19-53
+activity#io.krumbs.sdk.starter.Activitys.Staticimage
+ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:44:9-58
+	android:name
+		ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:44:19-56
+activity#io.krumbs.sdk.starter.Activitys.Dishfeatures
+ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:45:9-59
+	android:name
+		ADDED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml:45:19-57
 uses-sdk
 INJECTED from F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [io.krumbs.sdk:krumbs-sdk:2.4.0-SNAPSHOT] F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\exploded-aar\io.krumbs.sdk\krumbs-sdk\2.4.0-SNAPSHOT\AndroidManifest.xml:8:5-10:41
