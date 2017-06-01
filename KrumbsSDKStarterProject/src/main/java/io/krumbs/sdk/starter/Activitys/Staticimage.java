@@ -21,5 +21,6 @@ public class Staticimage extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.static_image);
 
+
     }
 }

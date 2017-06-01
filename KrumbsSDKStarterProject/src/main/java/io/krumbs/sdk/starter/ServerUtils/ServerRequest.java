@@ -3,12 +3,22 @@ package io.krumbs.sdk.starter.ServerUtils;
 import android.content.Context;
 import android.util.Log;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
+
+import java.util.Date;
+
+import io.krumbs.sdk.starter.Activitys.Dishfeatures;
+import io.krumbs.sdk.starter.Models.User;
+import io.krumbs.sdk.starter.Preferences.LoginPreferences;
+import io.krumbs.sdk.starter.Preferences.UrlPreferences;
 
 /**
  * Created by SYED on 15-02-2017.
  */
 public class ServerRequest {
+    public LoginPreferences username;
+    String localImagePath = "";
 
     HttpClientWrapper clientWrapper;
     public  ServerRequest(){
@@ -57,6 +67,61 @@ public class ServerRequest {
             request.put("url", url);
             Log.e("JSON-REQUEST", request.toString());
             String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.UPLOAD_IMAGE_URL,request.toString());
+            jsonObject = new JSONObject(response);
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return jsonObject;
+    }
+
+    public JSONArray loadDayData(Context context,String date) {
+        username=new LoginPreferences(context);
+        User user = username.getUser();
+        JSONArray jsonArray = null;
+        try {
+            JSONObject request = new JSONObject();
+            request.put("date", date);
+            request.put("username", user.getEmail());
+            Log.e("JSON-REQUEST", request.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.DateData,request.toString());
+            jsonArray = new JSONArray(response);
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return jsonArray;
+    }
+
+    public JSONArray loadFiveUpload(Context context,String date) {
+        username=new LoginPreferences(context);
+        User user = username.getUser();
+        JSONArray jsonArray = null;
+        try {
+            JSONObject request = new JSONObject();
+            request.put("date", date);
+            request.put("username", user.getEmail());
+            Log.e("JSON-REQUEST", request.toString());
+            String response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.LastFiveUploads,request.toString());
+            jsonArray = new JSONArray(response);
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return jsonArray;
+    }
+
+    public JSONObject ExtractDishFeatures(Dishfeatures dishfeatures, String dishname) {
+        String response="";
+        JSONObject jsonObject = new JSONObject();
+        try {
+            JSONObject request = new JSONObject();
+            request.put("dishname", dishname);
+            Log.e("JSON-REQUEST", request.toString());
+            response = clientWrapper.doPostRequest(Urls.BASE_URL+Urls.FEATURES,request.toString());
             jsonObject = new JSONObject(response);
 
         }

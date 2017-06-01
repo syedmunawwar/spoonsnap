@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_coin.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_coin.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_flag.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_flag.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\krumbssdk_appicon.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\drawable-xxhdpi\\krumbssdk_appicon.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_checkmark.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_checkmark.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_inbox.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_inbox.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_vip.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_vip.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_phone.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_phone.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_arrowleft.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_arrowleft.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_trophy.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_trophy.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_logo.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_logo.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_bell.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_bell.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_square_nodropshadow.9.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_square_nodropshadow.9.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_arrowleft_faded.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_arrowleft_faded.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_sync.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_sync.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_warning.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_warning.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_megaphone.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_megaphone.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_arrowright_faded.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_arrowright_faded.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_arrowright.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_arrowright.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_gear.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_gear.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_rocket.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_rocket.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_sale_tag.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_sale_tag.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_ic_clipboard_checkmark.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_ic_clipboard_checkmark.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_access_time_black_48dp.png",
+        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\drawable-xxhdpi\\ic_access_time_black_48dp.png"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\com_mixpanel_android_square_dropshadow.9.png",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\f3626511cd94e90c12fce5db825b018589ccf839\\output\\res\\drawable-xxhdpi\\com_mixpanel_android_square_dropshadow.9.png"
+    }
+]

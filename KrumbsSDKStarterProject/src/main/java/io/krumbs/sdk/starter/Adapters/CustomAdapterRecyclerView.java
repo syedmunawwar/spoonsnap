@@ -1,11 +1,14 @@
 package io.krumbs.sdk.starter.Adapters;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -18,7 +21,7 @@ import io.krumbs.sdk.starter.R;
 public class CustomAdapterRecyclerView extends RecyclerView.Adapter<CustomAdapterRecyclerView.MyViewHolder> {
 
     private ArrayList<DataModel> dataSet;
-
+    Context context;
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView textViewName;
@@ -33,8 +36,9 @@ public class CustomAdapterRecyclerView extends RecyclerView.Adapter<CustomAdapte
         }
     }
 
-    public CustomAdapterRecyclerView(ArrayList<DataModel> data) {
+    public CustomAdapterRecyclerView(Context context,ArrayList<DataModel> data) {
         this.dataSet = data;
+        this.context = context;
     }
 
     @Override
@@ -58,7 +62,9 @@ public class CustomAdapterRecyclerView extends RecyclerView.Adapter<CustomAdapte
 
         textViewName.setText(dataSet.get(listPosition).getName());
         textViewVersion.setText(dataSet.get(listPosition).getVersion());
-        imageView.setImageResource(dataSet.get(listPosition).getImage());
+        Picasso.with(context)
+                .load(dataSet.get(listPosition).getImage())
+                .into(imageView);
     }
 
     @Override

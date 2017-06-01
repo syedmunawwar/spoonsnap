@@ -1,42 +1,42 @@
 [
     {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_seek_thumb.xml"
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_color_highlight_material.xml"
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\2c5a165195ac3e8e275829607c70ee74009f43f0\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_spinner.xml"
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color-v23\\abc_tint_switch_track.xml"
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\SYED\\.android\\build-cache\\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\\output\\res\\color-v23\\abc_tint_spinner.xml"
     }
 ]

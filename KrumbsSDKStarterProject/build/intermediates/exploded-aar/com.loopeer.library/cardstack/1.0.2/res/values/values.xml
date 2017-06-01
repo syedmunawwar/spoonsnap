@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="CardStackView"><attr format="dimension" name="stackOverlapGaps"/><attr format="dimension" name="stackOverlapGapsCollapse"/><attr format="dimension" name="stackHeaderHeight"/><attr format="integer" name="stackDuration"/><attr format="integer" name="stackNumBottomShow"/><attr name="stackAnimationType">
-            <flag name="allDown" value="0"/>
-            <flag name="upDown" value="1"/>
-            <flag name="upDownStack" value="2"/>
-        </attr></declare-styleable>
-    <string name="app_name">cardstack</string>
-</resources>

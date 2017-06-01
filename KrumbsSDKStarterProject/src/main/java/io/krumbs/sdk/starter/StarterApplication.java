@@ -58,21 +58,21 @@ public class StarterApplication extends Application {
                 @Override
                 public void onMediaUpload(String id, KMediaUploadListener.MediaUploadStatus mediaUploadStatus,
                                           Media.MediaType mediaType, URL mediaUrl) {
+                    Log.e("url", String.valueOf(mediaUrl));
 
                     if (mediaUploadStatus != null) {
                         Intent intent1 = new Intent(StarterApplication.this, Staticimage.class);
                         intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent1);
-                        Log.i("KRUMBS Status", mediaUploadStatus.toString());
+                         Log.i("KRUMBS Status", mediaUploadStatus.toString());
                         if (mediaUploadStatus == KMediaUploadListener.MediaUploadStatus.UPLOAD_SUCCESS) {
-                            Intent intent = new Intent(StarterApplication.this, DishName.class);
-                            intent.putExtra("imageUrl", mediaUrl.toString());
-                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            startActivity(intent);
                             if (mediaType != null && mediaUrl != null) {
                                 Log.i("KRUMBS Media, Type: ", mediaType + ": ID:" + id + ", URL:" + mediaUrl);
                                 Toast.makeText(StarterApplication.this, mediaUploadStatus.toString(), Toast.LENGTH_LONG).show();
-
+                                Intent intent = new Intent(StarterApplication.this, DishName.class);
+                                intent.putExtra("imageUrl", mediaUrl.toString());
+                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                startActivity(intent);
                             }
                         }
                     }
@@ -85,7 +85,7 @@ public class StarterApplication extends Application {
             KrumbsSDK.registerUser(new KrumbsUser.KrumbsUserBuilder()
                     .email(user.getEmail())
                     .firstName(user.getUsername())
-                    .lastName(" public ").build());
+                    .lastName(user.getGender()).build());
 
 
 

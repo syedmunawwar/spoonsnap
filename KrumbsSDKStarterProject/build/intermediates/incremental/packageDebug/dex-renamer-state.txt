@@ -1,0 +1,7 @@
+#Fri Jun 02 00:20:29 IST 2017
+base.0=F\:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a9e7189f0649397f99f87e9f400d08461498bc92
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c1f1f57397867a62b3817db5a80c3ae0b432454b\\classes.dex
+base.1=F\:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c1f1f57397867a62b3817db5a80c3ae0b432454b
+file.0=F\:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a9e7189f0649397f99f87e9f400d08461498bc92\\classes.dex

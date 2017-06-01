@@ -1,3 +1,527 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\0c96b10f99a5c1a155cba1fbc5474bcd1ea37ebb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_24311b78b9e18f5dc0d625022828a4362573eac7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-cognito\2.2.10\5c86f5cb9aae693767b6188475e98e8d36282e9d\aws-android-sdk-cognito-2.2.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c86f5cb9aae693767b6188475e98e8d36282e9d">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\aws-android-sdk-cognito-2.2.10_244d0eca400692efe8077cab162b3ef59a9e9835.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\3e874de3ae6270d5be3cfba5d68c3447147c70f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_a55bbe8f7235c60d1aec0036067339a89126e0a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\905d75bc9d817d0a948f7d1ae5a228a75fc59b13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_b3e83ff05d2132f1de0e00d077433559eacd8659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\daf12224833a9571a1870831e58826e4c6e24f61\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_5947bc97ce9f74c16802f360957f0fdb962a92b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\ddaca04f1daa6df22f35d3d364b8fc0100e4eb94\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_43f006b97e9c1cc4d373cca57d9c6049cfe53777.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\okio-1.11.0_48b193ee1206b255205dbb639588062cc14d3864.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\aeca7d91eb85cae80473b40ffb1f6358e289aa8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2903c5196b61ad13a21cae50f2b4b151de7f19a">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_e74134f7166640715c9d1a5dee71dd5206cb312d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\f3626511cd94e90c12fce5db825b018589ccf839\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23781ad02132a226567dba2eb40411d360c4e2b0">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_bfa3b2e7c72e10af6156951bb9b151536b4dfb7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\dddf130fb271309cdb2b2a4fbbfd24fdb61a3948\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_69692793abdd10cf956abec9d1f19465a7823ba3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\81d39233f403483ed921e7c2b5956c390df7dc41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_2596f9a17617e1b75a5ccde2e84f01908e79bae3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\655a3c69bd21ec6840642b7ccaeea83672ae1f6e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_2e42a1115a05922b52940542eb771e2793ad12e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\52fc2d10fb5abae5a3d6abacdff181ddc7f714f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_2102adf520073cbfb94771f618558c3bad0ccd2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\daf12224833a9571a1870831e58826e4c6e24f61\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_23ea00ea5982acd998a989098ff59a1bff24827e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\0d5bda708d554f8fd47eb99c61f7df5297e96f78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_d9d0fb296257c25a9ec90481505dbc56da880517.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\81d4ac10831995da1580b1bdc3207d46bbc996b2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_e3ecdc97e413315a43a5084fb3843ad87d310fe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.1\f07c773f7b3a03c3801d405cadbdc93f7548e321\jackson-databind-2.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f07c773f7b3a03c3801d405cadbdc93f7548e321">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\jackson-databind-2.4.1_74bd8b0da6dc994bf1c90e7f927b819a52d9fdbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\2c5a165195ac3e8e275829607c70ee74009f43f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_8d7a43017ce5066206afc748a7748029b823f07e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_19e3656957b0c2dfdb0423df85fb1ed0872df92f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\034b59a8d97e051c8248673b2fa22b91231ceeb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_1b9ee44dd8c878d032a7a441798b9ddf9a54ca1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\ee8ff4b87da3835c44b4390ef154cdc918b419a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_74d3b98e22203414e550348b06b33b82bed94ad9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c1f1f57397867a62b3817db5a80c3ae0b432454b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.1\55605135bd7b836612e0bba7037c9669f6ccf89f\jackson-annotations-2.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55605135bd7b836612e0bba7037c9669f6ccf89f">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.1_20e6c5f7f32c2b8b5c62a8b2324c9d7c4b37cf96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\0d613e445250261bef98fe1e5b669916acb6ed21\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_77545677dbc24e7df70a56091b8f2b13a63d7158.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\57e3c88febb0195b40070af4eeeadd85d633e91d\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7a142fa1d85b23c6ce99d3116fd9c83f8f0ff2c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\edcd0ebc239202b507e78d92f6b4b247d885e39b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_11b03304ec6b7ea114a6d419ac13b8bb6756e736.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\5932ed6fcd35feaca72967998578aca01fe60e6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="97970bb0946c29d8b1708a8e1e7f36fc4e75adf1">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_b370ec0b1e65f76910b3e824fa65a3ab5a82b8b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-s3\2.2.10\778d8f7d8783c9707cf24a612bbf09309a4e82a1\aws-android-sdk-s3-2.2.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="778d8f7d8783c9707cf24a612bbf09309a4e82a1">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\aws-android-sdk-s3-2.2.10_46278ed39ebeb020636d27b74fee22df3e2cd347.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\cc0ab1e4151b3d9e3715dd9b746e2802d230f827\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_022ac67f3d6c0f1f811769e5e637f54d7f07fc6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.2.10\382a73ea72b3d781eadd0ffb5d7f936194bb7188\aws-android-sdk-core-2.2.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="382a73ea72b3d781eadd0ffb5d7f936194bb7188">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\aws-android-sdk-core-2.2.10_9299299279f2f75f4ddbb78964586f1b4a536585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_7cc58ca411376ceb97ab42bb4a2148fc6aec4b6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\27e97a7dbcb4924ded4665ecf9af48133bde807a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_4587aced4d8caadf5590e8be20910d2f8db00b6b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a83eb51e9bb887d01c103e6e0e800c00cdeab57">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a9e7189f0649397f99f87e9f400d08461498bc92\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\788a0160b325245ce9e15f7c01eea15c2ea21aa4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d254d8c3eee54b7850cb3d5354ca10701b869bf9">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_bdafafbe7967609ad4e3627011edc4af2bdad1b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\57e3c88febb0195b40070af4eeeadd85d633e91d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_fbfc97084b3c7b9298cdb7149adacd65a096d0b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\ce4e1b01bf8c72ed617161052078fca8b4510c01\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_71e184d65f9d24823bb30d59ede0cc724116b656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\de16972b14e1897e2b3b3307c9bd22478136f3e0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_c15e7c049424fcc5932f465fd0ec77b807e7a899.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.1\1d0ebef405044952f1d3b64c50686ef7b5f6dae8\eventbus-2.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d0ebef405044952f1d3b64c50686ef7b5f6dae8">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\eventbus-2.4.1_546bcb763191d7bcf3f12b2cb2930ca117c09c24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\044a603236492e0a9b47c9f896459734c037ac86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_4d41b9e435b792c19105dd622c36c431238a52ec.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\exploded-aar\io.krumbs.sdk\krumbs-sdk\2.4.0-SNAPSHOT\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b951c3c360c9af5c94580c599dcba9902a8ae7">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\io.krumbs.sdk-krumbs-sdk-2.4.0-SNAPSHOT_a34489e39fc207bef97869c2e67bf6c3e2c49df3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\5a1a93a86369e5d548c6248ca737fe0e83851c9f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_ee5f757cc579a487a769449f5799656339328906.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.5.0\4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83\okhttp-3.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\okhttp-3.5.0_6f59fd7463f0cb6692161e5fa38969ede441df95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\picasso-2.5.2_743b3bd3f2c672707f3e3d7274611629c0be3d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\761f37e9d3f70cd976951df1bdb0786719b3a152\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_526743ce3f020a02efe603c58a4173271d61affc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\127f0fa66c5f7f16cbf3e055e486479212fab2f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_cc2fe16c1ee4102622401de6051c26e8d174bf99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\761f37e9d3f70cd976951df1bdb0786719b3a152\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_d9d21cf0e3ef5383ce53c1bd492c0a30c172e130.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\119399fa542abc529f9cadbd262bba3d4ebcf13f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_99a264d73f3f002ef6000e95b013918be8292ceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\81d4ac10831995da1580b1bdc3207d46bbc996b2\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8d2e0db506e9cb05f6e854b0dcc19114ab662d72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_7c68b8275a875745167c72bb080ace2c1d113eac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\commons-codec-1.10_77183437e43d03fbf04d48242f704eeda6368256.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\24f8b026e61794f77cde3a9bd7063a0e9bc79e0e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_2606587549714137e9dd0623e29dce4cbcc56e1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\dcdea6ed80ab5cace16c8029ea19e70b8f18b3de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_5ccfc4bd1c031da01efb3f9eb556052e7b80c55f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\e0829480a91a89ae9accdee4ddb66bd309cbf8ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_f7d5942f5d5e6f30e8e3ffb6a51bbb2dbe0dc86f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\exploded-aar\io.krumbs.sdk\krumbs-sdk\2.4.0-SNAPSHOT\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b951c3c360c9af5c94580c599dcba9902a8ae7">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\io.krumbs.sdk-krumbs-sdk-2.4.0-SNAPSHOT_a34489e39fc207bef97869c2e67bf6c3e2c49df3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\eventbus-3.0.0_218a04153b02972d4a23bdfa03715ac9fc2a2a85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.android\build-cache\dddf130fb271309cdb2b2a4fbbfd24fdb61a3948\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\classes_dc2f4762e9b05dd28bb627263a9a54ecd73a1f30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SYED\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.1\b130bcfb5a9c410c3cbd2e0adec9437e69a39e2c\jackson-core-2.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b130bcfb5a9c410c3cbd2e0adec9437e69a39e2c">
+        <dex dex="F:\final year project\spoonsnap-master\KrumbsSDKStarterProject\build\intermediates\pre-dexed\debug\jackson-core-2.4.1_8fd12b27e57546688745c1eb9380541eaa2e0e9f.jar" />
+    </item>
+
+</items>

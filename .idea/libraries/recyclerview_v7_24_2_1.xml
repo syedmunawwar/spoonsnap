@@ -4,8 +4,8 @@
       <root url="jar://$PROJECT_DIR$/KrumbsSDKStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/KrumbsSDKStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/KrumbsSDKStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3e874de3ae6270d5be3cfba5d68c3447147c70f8/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/3e874de3ae6270d5be3cfba5d68c3447147c70f8/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

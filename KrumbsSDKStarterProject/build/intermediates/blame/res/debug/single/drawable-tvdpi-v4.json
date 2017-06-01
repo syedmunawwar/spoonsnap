@@ -1,9 +1,5 @@
 [
     {
-        "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\krumbssdk_appicon.png",
-        "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\drawable-tvdpi\\krumbssdk_appicon.png"
-    },
-    {
         "merged": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\hello.jpg",
         "source": "F:\\final year project\\spoonsnap-master\\KrumbsSDKStarterProject\\src\\main\\res\\drawable-tvdpi\\hello.jpg"
     }

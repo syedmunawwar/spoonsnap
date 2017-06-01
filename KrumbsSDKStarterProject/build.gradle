@@ -21,6 +21,7 @@ android {
         exclude 'META-INF/NOTICE' // will not include NOTICE file
         exclude 'META-INF/LICENSE' // will not include LICENSE file
     }
+    buildToolsVersion '25.0.0'
 }
 
 dependencies {
@@ -32,6 +33,7 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.5.0'
     compile 'com.loopeer.library:cardstack:1.0.2'
     compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 
     compile 'com.google.android.gms:play-services-appindexing:9.0.2'
 }

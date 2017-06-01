@@ -26,6 +26,8 @@
     <dimen name="ic_album_overflow_width">20dp</dimen>
     <dimen name="ic_album_overflow_height">30dp</dimen>
     <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="features_text">20sp</dimen>
+    <dimen name="feature_padding">2sp</dimen>
 
     <dimen name="image_height_DishName">260dp</dimen>
 

@@ -34,7 +34,7 @@ public class HttpClientWrapper {
 
         Response response = client.newCall(request).execute();
         String responseString = response.body().string();
-        Log.e("<------>" + url + "<----->", responseString);
+        Log.e("<------>"+json+" ----- " + url + "<----->", responseString);
         return responseString;
     }
 

@@ -2,93 +2,109 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <android.support.v7.widget.CardView
-        android:id="@+id/card_view"
+    android:layout_height="wrap_content"
+    android:background="@color/color_1">
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/card_margin"
-        android:elevation="3dp"
-        card_view:cardCornerRadius="@dimen/card_album_radius">
+        android:layout_height="wrap_content">
 
-        <RelativeLayout
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:background="@color/cam"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
 
-            <ImageView
-                android:id="@+id/imageViewDishName"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:clickable="true"
-                android:scaleType="fitXY"
-                android:paddingBottom="15dp"/>
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/DishName"
-                android:text="Dish Name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/imageViewDishName"
-                android:paddingLeft="@dimen/album_title_padding"
-                android:paddingRight="@dimen/album_title_padding"
-                android:paddingTop="@dimen/album_title_padding"
-                android:textColor="@color/cardview_dark_background"
-                android:textSize="35dp"
-                />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/DishName"
-                android:id="@+id/EditDishName"
-               />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/EditDishName"
-                android:gravity="center"
-                android:id="@+id/Serving">
-                <RadioGroup
+                <ImageView
+                    android:id="@+id/imageViewDishName"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:paddingBottom="15dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/DishName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageViewDishName"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="Dish Name"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="35dp" />
+
+                <EditText
+                    android:id="@+id/EditDishName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/DishName" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1 Serving"
-                    android:checked="true"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/EditDishName"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onButtonClick"
+                    android:src="@mipmap/mic" />
+
+
+                <LinearLayout
+                    android:id="@+id/Serving"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="1/2 Serving"
-                    android:checked="false"/>
-                <RadioButton
+                    android:layout_below="@id/imageButton2"
+                    android:gravity="center">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="1 Serving" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="1/2 Serving" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:text="1/4 Serving" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/DishNameNext"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="1/4 Serving"
-                    android:checked="false"/>
-                </RadioGroup>
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/DishNameNext"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_below="@+id/Serving"
-                android:layout_centerHorizontal="true"
-                android:src="@mipmap/next"/>
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/Serving"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/next" />
 
 
+            </RelativeLayout>
 
-        </RelativeLayout>
-
-    </android.support.v7.widget.CardView>
-</ScrollView>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
 
 </LinearLayout>
 

@@ -28,6 +28,7 @@ import java.util.Map;
 
 import de.greenrobot.event.EventBus;
 import io.krumbs.sdk.KrumbsSDK;
+import io.krumbs.sdk.KrumbsUser;
 import io.krumbs.sdk.dashboard.KDashboardFragment;
 import io.krumbs.sdk.dashboard.KGadgetDataTimePeriod;
 import io.krumbs.sdk.data.model.Event;
@@ -89,7 +90,8 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
         setupTabIcons();
-
+        tabLayout.setVisibility(View.VISIBLE);
+        viewPager.setVisibility(View.VISIBLE);
 
         startCaptureButton = (ImageButton)findViewById(R.id.start_report_button);
         hamburgerIV = (ImageView)findViewById(R.id.hamburger);
@@ -154,10 +156,17 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
                 return true;
             }
         });
+
+        KrumbsSDK.registerUser(new KrumbsUser.KrumbsUserBuilder()
+                .email(user.getEmail())
+                .firstName(user.getUsername())
+                .lastName(user.getGender()).build());
+
         // It is REQUIRED to set this Callback for Krumbs Capture to Work.
         // You can  invoke KrumbsSDK.startCapture only when this callback returns. Not setting this correctly will
         // result in exceptions. Also note that the startCaptureButton is hidden until this callback returns.
         KrumbsSDK.setKCaptureReadyCallback(this);
+
     }
 
 
@@ -204,8 +213,7 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
 //                    Intent intent = new Intent(MainActivity.this, DishName.class);
 //                    intent.putExtra("imagelocal", imagePath.toString());
                     localimageurl.SetURL(imagePath.toString());
-                    tabLayout.setVisibility(View.VISIBLE);
-                    viewPager.setVisibility(View.VISIBLE);
+
 
                     if (audioCaptured) {
 // The local audio url for your capture (if user decided to record audio)
@@ -216,6 +224,7 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
                     String mediaJSONUrl = (String) map.get(KCaptureCompleteListener.CAPTURE_MEDIA_JSON_URL);
 
                     Log.i("KRUMBS-CALLBACK", mediaJSONUrl + ", " + imagePath);
+                    Log.e("url uploaded image",mediaJSONUrl);
 
 
                     if (map.containsKey(KCaptureCompleteListener.CAPTURE_EVENT)) {
@@ -264,7 +273,7 @@ public class MainActivity extends BaseActivity implements KrumbsSDK.KCaptureRead
         TimeLineTabAdapter adapter = new TimeLineTabAdapter(getSupportFragmentManager());
         adapter.addFrag(new OneFragment(), "Day");
         adapter.addFrag(new TwoFragment(), "Week");
-        adapter.addFrag(new ThreeFragment(), "Month");
+        adapter.addFrag(new ThreeFragment(), "Last 5 Uploads");
         viewPager.setAdapter(adapter);
     }
 

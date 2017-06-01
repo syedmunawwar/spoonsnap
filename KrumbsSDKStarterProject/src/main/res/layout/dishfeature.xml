@@ -1,15 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:text="We have to extract featurs from the server"/>
+    android:layout_height="match_parent"
+    android:background="@color/login">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dish Name :"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_Dish_name"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_Dish_name_Value"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type of Food :"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_Type"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_Type_Value"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Ingredients :"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_Ingredients"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_Ingredients_Value"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbs :"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_carbs"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_carbs_Value"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proteins :"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_proteins"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_proteins_Value"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fat :"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_fat"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/features_text"
+        android:padding="@dimen/feature_padding"
+        android:id="@+id/feature_fat_Value"
+        />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GO to main page"
-        android:id="@+id/buttontomain"/>
+        android:id="@+id/buttontomain"
+        android:background="@color/color_24"
+        android:layout_margin="15sp"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
